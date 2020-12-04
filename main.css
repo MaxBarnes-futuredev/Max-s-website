@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.Title {
+    text-align: center;
+    font-size: 35;
+
+}
+
+.myaudio {
+    src: "bloop.wav";
+    
+}
+.imagesize {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.siteimages {
+    width: 49%
+}
+
+.images {
+    width: 30%;
+
+    
+}
+
+.large {
+    font-size: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+#title {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    background-color: rgb(0,0,0,0.4);
+    padding: 2px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    margin-left: 15%;
+    width: 70%;
+    padding-right: 15px;
+}
+
+#navbar{
+    color: rgb(0, 248, 227, 0.4);
+    font-size: 20px;
+    border-style: rgb(0, 248, 227, 0.4);
+    background-color:rgb(0, 248, 227, 0.4) ;
+    border-radius: 25px;
+    text-decoration-line: none;
+    font-family: 'Fredoka One', cursive;
+    margin-left: 15%;
+    width: 70%;
+
+    margin-bottom: 0px;
+}
+
+#icon
+{
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+#sitelogo
+{
+    color: white;
+    text-align: right;
+    font-family: 'Fredoka One', cursive;
+    position: relative;
+    animation-name: logoan;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+
+@keyframes logoan {
+    0% {right: 15%;}
+    50% {right: 30%;}
+    100% {right: 15%;}
+
+
+}
+
+
+#paragraph 
+{                     
+    color: white;
+    border-style: transparent;
+    padding: 5px;
+    margin-left: 15%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    /* background-color: black;
+    opacity: 0.4; */
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.4);
+    font-family: 'Fredoka One', cursive;
+    border-radius: 25px;
+    width: 70%;
+    border: center center fixed;
+
+}
+
+*{
+    box-sizing: borderbox;
+    padding: 4px;
+}
+
+.HomeBackground {
+    background: url("background.png") no-repeat center center fixed;
+    background-size: 370%;
+}
+
+#button {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#button:hover {opacity: 1};
